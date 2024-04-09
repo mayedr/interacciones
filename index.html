@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interacción con Colores y Formas</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Interacción con Colores y Formas</h1>
+        <div class="shape" id="shape"></div>
+        <div class="controls">
+            <label for="colorPicker">Color:</label>
+            <input type="color" id="colorPicker">
+            <button onclick="changeColor()">Cambiar Color</button>
+            <button onclick="moveShape('left')">Izquierda</button>
+            <button onclick="moveShape('right')">Derecha</button>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
